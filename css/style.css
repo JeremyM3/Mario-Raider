@@ -1,0 +1,42 @@
+#lara{
+    position: relative;
+    transform: translate3d(10 10 26 26deg);
+    bottom: -435px;
+    float: left;
+}
+#lara img{
+	 width: 230px;
+	 transition-duration: 600ms;
+}
+.rotationdroite{
+    transform: rotateY(0deg);
+}
+.rotationgauche{
+	transform: rotateY(180deg);
+}
+#life{
+    padding: 5px;
+    background-color: #3BFB2F;
+    width: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+#stamina{
+    padding: 5px;
+    background-color: #ECE72E;
+    width: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+#map{
+    height: 721px;
+    border: 8px solid #0E0E0E;
+    background-position: 0px 748px;
+    background-size: auto 748px;
+    background-image: url("../images/Mario_Bros_Map2.jpg");
+}
+audio{
+	    visibility: hidden;
+}
